@@ -49,6 +49,7 @@ In this problem finding the ideal applicant without misclassification is very im
 
 ## Below are the Jupyter notebooks with the scripts and  and explanations:
 
+ - [Exploratory Data Analysis](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_EDA.ipynb)
  - [Preprocessing and Model training](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_Feature_Engg_and_Training.ipynb)
  - [Predict Targets on Test Dataset](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_Test.ipynb)
 
