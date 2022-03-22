@@ -33,20 +33,26 @@ In this problem finding the ideal applicant without misclassification is very im
 
 1. Data Preprocessing – We need to merge all the csv files into application_train data by aggregation techniques. Then we perform EDA and remove the outliers. For this we first replace the outliers with nan value and later impute them with zero in case of numerical features and mode in case of categorical features. Features having outliers more than 75 percent can be dropped. Next, we need to plot the correlation plot for all the data to find the features which are mutually correlated and keep only one of them and drop the other one.
 
-2. 
+2. Perform Feature Engineering
 
-2. Next, we need to normalize all the numerical data and response encoding all the categorical data and save all the normalizer and response encoding fit.
+3. Next, we need to normalize all the numerical data and response encoding all the categorical data and save all the normalizer and response encoding fit.
 
-3. Fit the data on a LightGBM without hyperparameter tuning and get the feature importance.
+4. Fit on LGBMClassifier and get the best featuers list
 
-4. Keep only the features with good feature importance value and drop the others.
+5. Perform GridSearch CV on LightGBM Classifier and find the best hyperparameters.
 
-5. Perform K-fold cross validation on LigthGBM and find the best hyperparameters and run each model with the best hyperparameters save the model which performs the best. Plot the confusion matrix and AUC curve for the test and train score.
+6. Keep only the features with good feature importance value and drop the others.
 
-6. Use the saved StandardScalar, Response Encoding, One_hot_encoding and best model and pre-process and predict the test data .
+7. Fit LigthGBM with best hyperparameters on the updated dataset and save the model. Plot the confusion matrix and AUC curve for the test and train score.
+
+8. Use the saved StandardScalar, Response Encoding, One_hot_encoding and best model and pre-process and predict the test data.
+
+ - [Preprocessing and Model training](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_Feature_Engg_and_Training.ipynb)
+ - Predict 
 
 
-![Kaggle Score](https://user-images.githubusercontent.com/66409831/159491145-9542aa52-795e-4605-98de-4a070cbce7d6.JPG)
+
+![Kaggle Score] https://user-images.githubusercontent.com/66409831/159491145-9542aa52-795e-4605-98de-4a070cbce7d6.JPG
 
 
 **References:**
