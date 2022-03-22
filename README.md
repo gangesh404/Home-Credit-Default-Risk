@@ -47,10 +47,16 @@ In this problem finding the ideal applicant without misclassification is very im
 
 8. Use the saved StandardScalar, Response Encoding, One_hot_encoding and best model and pre-process and predict the test data.
 
+## Below are the Jupyter notebooks with the scripts and  and explanations:
+
  - [Preprocessing and Model training](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_Feature_Engg_and_Training.ipynb)
- - Predict 
+ - [Predict Targets on Test Dataset](https://github.com/gangesh404/Home-Credit-Default-Risk/blob/main/Home_Credit_Test.ipynb)
 
+## Below are the Top 30 Features:
 
+![best_features](https://user-images.githubusercontent.com/66409831/159518785-c2671336-ed86-4715-b7d8-1b08ebfcf275.png)
+
+## Results on Submission on Kaggle:
 
 ![Kaggle Score] https://user-images.githubusercontent.com/66409831/159491145-9542aa52-795e-4605-98de-4a070cbce7d6.JPG
 
