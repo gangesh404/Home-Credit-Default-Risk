@@ -59,7 +59,7 @@ In this problem finding the ideal applicant without misclassification is very im
 
 ## Results on Submission on Kaggle:
 
-![Kaggle Score] https://user-images.githubusercontent.com/66409831/159491145-9542aa52-795e-4605-98de-4a070cbce7d6.JPG
+![Kaggle Score](https://user-images.githubusercontent.com/66409831/159491145-9542aa52-795e-4605-98de-4a070cbce7d6.JPG)
 
 
 **References:**
