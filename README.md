@@ -6,7 +6,7 @@ Predicting the capability of each applicant of repaying a loan
 Home Credit B.V. is an international non-bank financial institution who provides loan for a varied personal requirement. They require a well optimized machine learning approach to determine whether an applicant will pay back the loan or not.
 
 ### Business Problem:
-As many loan applicants face rejections due to very less or no credit history and end up with untrustworthy lenders. In order to solve this problem, we need to determine if an applicant would be able to repay the loan back using the available data. So that the client has a better borrowing experience and the Home Credit can avoid any defaulters and make the most profit by lending the money to the ideal applicant.
+As many loan applicants face rejections due to very less or no credit history and end up with untrustworthy lenders. In order to solve this problem, we need to determine if an applicant would be able to repay the loan, using the available data. So that the client has a better borrowing experience and the Home Credit can avoid any defaulters and make the most profit by lending the money to the ideal applicant.
 
 ### ML formulation of business problem:
 For each applicant we need to predict if they can repay the loan. Here the targets are 0 and 1, where 0 means the applicant will repay the loan and 1 means the applicant will not repay the loan. This is a binary classification problem.
